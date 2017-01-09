@@ -21,7 +21,8 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-import urlparse, urllib2, os, midi, math, random, re, string, sys
+from urllib.parse import urlparse
+import urllib, os, midi, math, random, re, string, sys
 import numpy as np
 
 GENRE = 0
